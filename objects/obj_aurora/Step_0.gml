@@ -14,7 +14,6 @@ x = clamp(x, 0, room_width-sprite_width)
 y = clamp(y, 0, room_height-sprite_height)
 
 
-
 // Audio
 if (speed != 0) {
 	// Caso esteja movendo
@@ -38,5 +37,20 @@ if (speed != 0) {
 	fade_wait -= 1
 }
 
+if (mouse_check_button_pressed(mb_left) and attack_wait <= 0) {
+	var _direction = radtodeg(arctan2(y - mouse_y, mouse_x - x))
+	var _speed = 20
+	var _atribute = {
+		speed : 10,
+		direction : _direction,
+		image_angle : _direction,
+		image_xscale : 2,
+		image_yscale : 2
+	}
+	instance_create_depth(x+sprite_width/2, y+sprite_height/2, -10, obj_bullet, _atribute)
+	audio_play_sound(snd_pistol_shot, 1, false, 0.3, 0, 0.9+random(0.2))
+	
+	attack_wait = 20
+}
 
-
+attack_wait -= 1

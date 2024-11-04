@@ -35,13 +35,15 @@
   "name":"Boreal",
   "resources":[
     {"id":{"name":"obj_aurora","path":"objects/obj_aurora/obj_aurora.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_laboratorio","path":"rooms/rm_laboratorio/rm_laboratorio.yy",},},
     {"id":{"name":"spr_auroraIdle","path":"sprites/spr_auroraIdle/spr_auroraIdle.yy",},},
+    {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},},
+    {"id":{"name":"tl_tileset","path":"tilesets/tl_tileset/tl_tileset.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_laboratorio","path":"rooms/rm_laboratorio/rm_laboratorio.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

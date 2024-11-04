@@ -34,7 +34,9 @@
   },
   "name":"Boreal",
   "resources":[
+    {"id":{"name":"obj_aurora","path":"objects/obj_aurora/obj_aurora.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_auroraIdle","path":"sprites/spr_auroraIdle/spr_auroraIdle.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

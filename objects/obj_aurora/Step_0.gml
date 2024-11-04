@@ -4,7 +4,7 @@
 var _spd = 5
 
 var _directionx = keyboard_check(vk_right) - keyboard_check(vk_left)
-var _directiony = keyboard_check(vk_down) - keyboard_check(vk_up)
+var _directiony = keyboard_check(vk_up) - keyboard_check(vk_down)
 
-x += _directionx * _spd
-y += _directiony * _spd
+direction = radtodeg(arctan2(_directiony, _directionx))
+speed = _directionx != 0 or _directiony != 0 ? _spd : 0

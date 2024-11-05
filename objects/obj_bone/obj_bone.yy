@@ -1,22 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_esqueleto",
+  "%Name":"obj_bone",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_aurora","path":"objects/obj_aurora/obj_aurora.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_esqueleto",
+  "name":"obj_bone",
   "overriddenProperties":[],
   "parent":{
     "name":"g_obj_inimigos",
     "path":"folders/Objetos/g_obj_inimigos.yy",
   },
-  "parentObjectId":{
-    "name":"obj_inimigo",
-    "path":"objects/obj_inimigo/obj_inimigo.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_esqueleto",
-    "path":"sprites/spr_esqueleto/spr_esqueleto.yy",
+    "name":"spr_bone",
+    "path":"sprites/spr_bone/spr_bone.yy",
   },
   "spriteMaskId":null,
   "visible":true,

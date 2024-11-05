@@ -1,7 +1,7 @@
 /// @description Codigo de Update
 // Você pode escrever seu código neste editor
 
-
+if (hp <= 0) instance_destroy()
 
 // Movimento
 var _directionx = keyboard_check(vk_right) - keyboard_check(vk_left)

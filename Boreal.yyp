@@ -45,6 +45,7 @@
     {"id":{"name":"rm_laboratorio","path":"rooms/rm_laboratorio/rm_laboratorio.yy",},},
     {"id":{"name":"snd_pistol_shot","path":"sounds/snd_pistol_shot/snd_pistol_shot.yy",},},
     {"id":{"name":"snd_running","path":"sounds/snd_running/snd_running.yy",},},
+    {"id":{"name":"snd_skeleton_death","path":"sounds/snd_skeleton_death/snd_skeleton_death.yy",},},
     {"id":{"name":"spr_aranha","path":"sprites/spr_aranha/spr_aranha.yy",},},
     {"id":{"name":"spr_auroraIdle","path":"sprites/spr_auroraIdle/spr_auroraIdle.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},

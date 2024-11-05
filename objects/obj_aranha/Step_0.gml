@@ -3,6 +3,7 @@
 
 if (hp <= 0) instance_destroy()
 
+if (!instance_exists(obj_aurora)) return
 
 var _offset_x = random_range(-20, 20);
 var _offset_y = random_range(-20, 20);

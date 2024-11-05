@@ -51,6 +51,7 @@ if (mouse_check_button_pressed(mb_left) and attack_wait <= 0) {
 	audio_play_sound(snd_pistol_shot, 1, false, 0.3, 0, 0.9+random(0.2))
 	
 	attack_wait = 20
+	image_xscale = -image_xscale
 }
 
 attack_wait -= 1

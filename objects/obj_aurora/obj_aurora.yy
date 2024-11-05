@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_auroraIdle",
-    "path":"sprites/spr_auroraIdle/spr_auroraIdle.yy",
+    "name":"spr_aurora_running_front_right",
+    "path":"sprites/spr_aurora_running_front_right/spr_aurora_running_front_right.yy",
   },
   "spriteMaskId":null,
   "visible":true,

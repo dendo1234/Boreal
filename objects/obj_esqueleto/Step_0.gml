@@ -5,7 +5,7 @@
 event_inherited();
 
 
-direction += 3
+direction += 5
 action_wait--
 
 if (!instance_exists(obj_aurora)) {

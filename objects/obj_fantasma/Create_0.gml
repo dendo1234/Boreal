@@ -13,9 +13,9 @@ enum STATES {
 
 state = STATES.IDLE
 
-move_accel = 10.0	// Const
+move_accel = 5.0	// Const
 move_damping = 0.975	// Const
-attack_speed = 1500.0	// Const
+attack_speed = 750.0	// Const
 
 detect_radius = 500.0	// Const
 attack_radius = 300.0	// Const

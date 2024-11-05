@@ -14,7 +14,7 @@ enum SKELETON_STATES {
 
 state = SKELETON_STATES.IDLE
 action_wait = 100
-speed = 5
+speed = 3
 
 var _angle = random(360)
 var _radius = 100

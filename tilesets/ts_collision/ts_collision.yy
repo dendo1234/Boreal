@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tl_dungeon_tiles",
+  "%Name":"ts_collision",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tl_dungeon_tiles",
-  "out_columns":10,
+  "name":"ts_collision",
+  "out_columns":1,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_dungeon_tiles",
-    "path":"sprites/spr_dungeon_tiles/spr_dungeon_tiles.yy",
+    "name":"spr_collision_tiles",
+    "path":"sprites/spr_collision_tiles/spr_collision_tiles.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -28,11 +28,11 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":32,
+  "tileHeight":16,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":32,
+  "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":100,
+  "tile_count":2,
 }

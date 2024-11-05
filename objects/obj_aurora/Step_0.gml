@@ -4,11 +4,13 @@
 if (hp <= 0) instance_destroy()
 
 // Movimento
-var _directionx = keyboard_check(vk_right) - keyboard_check(vk_left)
-var _directiony = keyboard_check(vk_up) - keyboard_check(vk_down)
+var _directionx = (keyboard_check(vk_right) or keyboard_check(ord("D"))) - (keyboard_check(vk_left) or keyboard_check(ord("A")))
+var _directiony = (keyboard_check(vk_up) or keyboard_check(ord("W"))) - (keyboard_check(vk_down) or keyboard_check(ord("S")))
 
-direction = radtodeg(arctan2(_directiony, _directionx))
-speed = _directionx != 0 or _directiony != 0 ? spd : 0
+var _direction = arctan2(_directiony, _directionx)
+var _dx = cos(_direction)*spd
+var _dy = -sin(_direction)*spd
+direction = radtodeg(_direction)
 
 if (direction >= 180 or direction == 0) {
 	sprite_index = spr_aurora_running_front_left
@@ -20,6 +22,16 @@ if (direction > 270 or direction < 90) {
 	image_xscale = -1
 } else {
 	image_xscale = 1
+}
+
+if (_directionx != 0 or _directiony != 0) {
+	if (collision_tile_map != -1) {
+		move_and_collide(_dx, _dy, collision_tile_map)
+	} else {
+		speed = 5
+	}
+} else {
+	speed = 0
 }
 
 x = clamp(x, 0, room_width-sprite_width)

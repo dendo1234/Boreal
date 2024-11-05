@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_esqueleto",
   "bboxMode":0,
-  "bbox_bottom":40,
-  "bbox_left":4,
-  "bbox_right":53,
+  "bbox_bottom":31,
+  "bbox_left":0,
+  "bbox_right":31,
   "bbox_top":7,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":32,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"158283d8-73a0-4054-9a4b-351cd1c4bc74","blendMode":0,"displayName":"default","isLocked":false,"name":"158283d8-73a0-4054-9a4b-351cd1c4bc74","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":32,
 }

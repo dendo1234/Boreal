@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fantasma",
-    "path":"sprites/spr_fantasma/spr_fantasma.yy",
+    "name":"spr_fantasma_boss",
+    "path":"sprites/spr_fantasma_boss/spr_fantasma_boss.yy",
   },
   "spriteMaskId":null,
   "visible":true,

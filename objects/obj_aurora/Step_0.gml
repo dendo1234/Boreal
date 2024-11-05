@@ -10,6 +10,18 @@ var _directiony = keyboard_check(vk_up) - keyboard_check(vk_down)
 direction = radtodeg(arctan2(_directiony, _directionx))
 speed = _directionx != 0 or _directiony != 0 ? spd : 0
 
+if (direction >= 180 or direction == 0) {
+	sprite_index = spr_aurora_running_front_left
+} else {
+	sprite_index = spr_aurora_running_back_left
+}
+
+if (direction > 270 or direction < 90) {
+	image_xscale = -1
+} else {
+	image_xscale = 1
+}
+
 x = clamp(x, 0, room_width-sprite_width)
 y = clamp(y, 0, room_height-sprite_height)
 

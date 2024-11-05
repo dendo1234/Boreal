@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-
+if(!instance_exists(obj_aurora)) return
 
 var _dt = delta_time / 1000000
 var _ct = get_timer() / 1000000

@@ -71,8 +71,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_dungeon","path":"rooms/rm_dungeon/rm_dungeon.yy",},},
     {"roomId":{"name":"rm_laboratorio","path":"rooms/rm_laboratorio/rm_laboratorio.yy",},},
+    {"roomId":{"name":"rm_dungeon","path":"rooms/rm_dungeon/rm_dungeon.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

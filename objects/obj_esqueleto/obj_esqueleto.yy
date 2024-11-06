@@ -5,14 +5,13 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_esqueleto",
   "overriddenProperties":[],
   "parent":{
-    "name":"g_obj_esqueleto",
-    "path":"folders/Objetos/g_obj_inimigos/g_obj_esqueleto.yy",
+    "name":"g_obj_inimigos",
+    "path":"folders/Objetos/g_obj_inimigos.yy",
   },
   "parentObjectId":{
     "name":"obj_inimigo",

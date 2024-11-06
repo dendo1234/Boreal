@@ -21,14 +21,6 @@ var _target_len = sqrt(sqr(_target_dir_x) + sqr(_target_dir_y))
 _target_dir_x /= _target_len 
 _target_dir_y /= _target_len 
 
-if (_target_dir_x < 0) 
-	image_xscale = abs(image_xscale)
-else 
-	image_xscale = -abs(image_xscale)
-for (i = 0; i < trail_count; i++) {
-	trail_array[i].image_xscale = image_xscale
-}
-
 // Timer countdown
 if (state != STATES.IDLE) {
 	state_timer -= _dt	

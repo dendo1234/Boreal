@@ -5,7 +5,6 @@
 event_inherited();
 
 
-
 if (!instance_exists(obj_aurora)) {
 	return
 }
@@ -27,13 +26,13 @@ if (action_wait <= 0) {
 }
 
 var _aurora_distance = point_distance(center_x, center_y, _aurora_x,_aurora_y)
-if (_aurora_distance < radius+30) {
+if (_aurora_distance < 150) {
 	var _target_angle = (180 + point_direction(center_x, center_y, _aurora_x, _aurora_y)) % 360
 	var _current_angle = angle
 	
-	//show_debug_message("target " + string(_target_angle))
-	//show_debug_message("current " + string(_current_angle))
-	//show_debug_message("Deg turn " + string(deg_turn_speed))
+	show_debug_message("target " + string(_target_angle))
+	show_debug_message("current " + string(_current_angle))
+	show_debug_message("Deg turn " + string(deg_turn_speed))
 	
 	if (abs(_target_angle - _current_angle) < 5) {
 		deg_turn_speed = 0
@@ -55,6 +54,7 @@ if (_aurora_distance < radius+30) {
 	speed = target_speed
 	deg_turn_speed = 360*speed/_circumference
 }
+
 
 
 angle += deg_turn_speed

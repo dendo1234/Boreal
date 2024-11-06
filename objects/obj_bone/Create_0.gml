@@ -10,6 +10,3 @@ if (irandom(1)) {
 call_later(3, time_source_units_seconds, function(){ instance_destroy() });
 
 
-tm_collision = -1
-if (layer_exists("tm_collision")) tm_collision = layer_tilemap_get_id("tm_collision")
-

@@ -25,14 +25,11 @@ action_wait = 100
 
 angle = random(360)
 direction = angle + 90
-radius = 48 // const
+radius = 32 // const
 var _circumference = radius*2*pi
 deg_turn_speed = 360*speed/_circumference
 
 
-
-x = x + cos(degtorad(angle))*radius
-y = y - sin(degtorad(angle))*radius
-
-
+x = x + cos(angle)*radius
+y = y + sin(angle)*radius
 

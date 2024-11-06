@@ -6,3 +6,6 @@ event_inherited();
 
 melee_dmg = 1
 melee_cooldown = 0.125
+spd = 1
+_colisao = layer_tilemap_get_id("tm_collision")
+

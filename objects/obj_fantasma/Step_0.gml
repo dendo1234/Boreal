@@ -40,6 +40,7 @@ if (state == STATES.MOVE and _target_len < attack_radius and  state_timer < 0) {
 
 // CHARGE -> ATTACK
 if (state == STATES.CHARGE and state_timer < 0) {
+	audio_play_sound(snd_boo,1,false,1,0,1 + random(0.6))
 	state = STATES.ATTACK
 	state_timer = attack_time
 }

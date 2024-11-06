@@ -7,13 +7,17 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_57F3B3CC","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
+    {"name":"inst_4F753303","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"$GMRInstanceLayer":"","%Name":"UI_layer","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_4F753303","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F753303","objectId":{"name":"obj_ui_hp","path":"objects/obj_ui_hp/obj_ui_hp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":6.0,"x":32.0,"y":640.0,},
+      ],"layers":[],"name":"UI_layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_57F3B3CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57F3B3CC","objectId":{"name":"obj_aurora","path":"objects/obj_aurora/obj_aurora.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":128.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"tm_collision","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tm_collision","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":75,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"tm_collision","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tm_collision","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":75,"TileCompressedData":[
           -152,-2147483648,-14,1,-14,-2147483648,-14,1,-33,-2147483648,1,1,-12,-2147483648,1,1,-14,-2147483648,
           1,1,-12,-2147483648,1,1,-33,-2147483648,1,1,-12,-2147483648,1,1,-14,-2147483648,1,1,-12,-2147483648,
           1,1,-33,-2147483648,1,1,-12,-2147483648,-16,1,-12,-2147483648,1,1,-33,-2147483648,1,1,-40,-2147483648,
@@ -53,7 +57,7 @@
           -5,0,-17,-2147483648,1,1,-74,-2147483648,1,1,-74,-2147483648,1,1,-74,-2147483648,1,1,-74,-2147483648,
           1,1,-74,-2147483648,1,1,-74,-2147483648,1,1,-74,-2147483648,1,1,-3328,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_collision","path":"tilesets/ts_collision/ts_collision.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":75,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":75,"TileCompressedData":[
           -152,86,14,1,2,3,4,5,2,3,4,5,2,3,4,5,6,-14,86,18,1,2,3,4,5,2,3,4,5,2,3,4,5,2,3,4,5,6,-29,86,14,12,7,
           8,9,10,7,8,9,10,7,8,9,10,17,-14,86,18,12,7,8,9,10,7,8,9,10,7,8,9,10,7,8,9,10,17,-29,86,14,23,18,19,20,
           21,18,19,20,21,18,19,20,21,28,-14,86,18,23,18,19,20,21,18,19,20,21,18,19,20,21,18,19,20,21,28,-29,86,
@@ -137,7 +141,7 @@
           29,30,31,32,39,-45,86,30,45,46,47,48,49,46,47,48,49,46,47,48,49,46,47,48,49,46,47,48,49,46,47,48,49,
           46,47,48,49,50,-311,86,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_dungeon_tiles","path":"tilesets/ts_dungeon_tiles/ts_dungeon_tiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_esqueleto",
   "parent":{

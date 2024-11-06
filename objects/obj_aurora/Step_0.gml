@@ -62,7 +62,7 @@ if (speed != 0) {
 }
 
 if (mouse_check_button_pressed(mb_left) and attack_wait <= 0) {
-	var _direction = radtodeg(arctan2(y - mouse_y, mouse_x - x))
+	_direction = radtodeg(arctan2(y - mouse_y, mouse_x - x))
 	var _speed = 20
 	var _atribute = {
 		speed : 10,

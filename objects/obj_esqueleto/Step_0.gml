@@ -5,16 +5,16 @@
 event_inherited();
 
 
-direction += 5
-action_wait--
-
 if (!instance_exists(obj_aurora)) {
 	return
 }
 
+var _aurora_x = obj_aurora.x
+var _aurora_y = obj_aurora.y
+	
 if (action_wait <= 0) {
-	var _aurora_x = obj_aurora.x
-	var _aurora_y = obj_aurora.y
+	_aurora_x = obj_aurora.x
+	_aurora_y = obj_aurora.y
 	var _direction = point_direction(x, y, _aurora_x, _aurora_y)
 	var _atributes = {
 		direction : _direction,
@@ -25,3 +25,40 @@ if (action_wait <= 0) {
 	action_wait = 100
 }
 
+var _aurora_distance = point_distance(center_x, center_y, _aurora_x,_aurora_y)
+if (_aurora_distance < 150) {
+	var _target_angle = (180 + point_direction(center_x, center_y, _aurora_x, _aurora_y)) % 360
+	var _current_angle = angle
+	
+	show_debug_message("target " + string(_target_angle))
+	show_debug_message("current " + string(_current_angle))
+	show_debug_message("Deg turn " + string(deg_turn_speed))
+	
+	if (abs(_target_angle - _current_angle) < 5) {
+		deg_turn_speed = 0
+		speed = 0
+	} else {
+		var _circumference = radius*2*pi
+		speed = 3*target_speed
+		deg_turn_speed = 360*speed/_circumference
+	}
+	
+	if (sin(degtorad(_target_angle - _current_angle)) > 0) { 
+		deg_turn_speed = abs(deg_turn_speed)
+	} else {
+		deg_turn_speed = -abs(deg_turn_speed)
+	}
+	
+} else {
+	var _circumference = radius*2*pi
+	speed = target_speed
+	deg_turn_speed = 360*speed/_circumference
+}
+
+
+
+angle += deg_turn_speed
+angle = (360 + angle) % 360
+direction = angle + 90*sign(deg_turn_speed)
+action_wait--
+	

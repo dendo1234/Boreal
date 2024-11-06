@@ -3,7 +3,8 @@
 
 
 spd = 2
-hp = 50
+max_hp = 50
+hp = max_hp
 
 fade_wait = 50
 running_audio_id = -1

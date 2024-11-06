@@ -21,6 +21,14 @@ var _target_len = sqrt(sqr(_target_dir_x) + sqr(_target_dir_y))
 _target_dir_x /= _target_len 
 _target_dir_y /= _target_len 
 
+if (_target_dir_x < 0) 
+	image_xscale = abs(image_xscale)
+else 
+	image_xscale = -abs(image_xscale)
+for (i = 0; i < trail_count; i++) {
+	trail_array[i].image_xscale = image_xscale
+}
+
 // Timer countdown
 if (state != STATES.IDLE) {
 	state_timer -= _dt	
@@ -40,6 +48,7 @@ if (state == STATES.MOVE and _target_len < attack_radius and  state_timer < 0) {
 
 // CHARGE -> ATTACK
 if (state == STATES.CHARGE and state_timer < 0) {
+	audio_play_sound(snd_boo,1,false,1,0,1 + random(0.6))
 	state = STATES.ATTACK
 	state_timer = attack_time
 }

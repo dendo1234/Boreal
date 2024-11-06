@@ -15,6 +15,7 @@
     {"name":"inst_4076D3DF","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
     {"name":"inst_60AE9344","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
     {"name":"inst_425F779E","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
+    {"name":"inst_38028CE8","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -28,6 +29,7 @@
         {"$GMRInstance":"v1","%Name":"inst_4076D3DF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4076D3DF","objectId":{"name":"obj_esqueleto","path":"objects/obj_esqueleto/obj_esqueleto.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":890.0,"y":1671.0,},
         {"$GMRInstance":"v1","%Name":"inst_60AE9344","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60AE9344","objectId":{"name":"obj_esqueleto","path":"objects/obj_esqueleto/obj_esqueleto.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":907.0,"y":1854.0,},
         {"$GMRInstance":"v1","%Name":"inst_425F779E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_425F779E","objectId":{"name":"obj_esqueleto","path":"objects/obj_esqueleto/obj_esqueleto.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":644.0,"y":1832.0,},
+        {"$GMRInstance":"v1","%Name":"inst_38028CE8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38028CE8","objectId":{"name":"obj_esqueleto_boss","path":"objects/obj_esqueleto_boss/obj_esqueleto_boss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":746.0,"y":1719.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"tm_collision","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tm_collision","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":75,"TileCompressedData":[
           -152,-2147483648,-14,1,-14,-2147483648,-18,1,-29,-2147483648,1,1,-12,-2147483648,1,1,-14,-2147483648,
@@ -98,7 +100,8 @@
           1,-45,-2147483648,1,1,-28,-2147483648,1,1,-45,-2147483648,1,1,-28,-2147483648,1,1,-45,-2147483648,1,
           1,-28,-2147483648,1,1,-986,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_collision","path":"tilesets/ts_collision/ts_collision.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":75,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"tm_props","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tm_props","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":0,"SerialiseWidth":0,"TileSerialiseData":[],},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"tm_walls_flors","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tm_walls_flors","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":75,"TileCompressedData":[
           -152,86,14,1,2,3,4,5,2,3,4,5,2,3,4,5,6,-14,86,18,1,2,3,4,5,2,3,4,5,2,3,4,5,2,3,4,5,6,-29,86,14,12,7,
           8,9,10,7,8,9,10,7,8,9,10,17,-14,86,18,12,7,8,9,10,7,8,9,10,7,8,9,10,7,8,9,10,17,-29,86,14,23,18,19,20,
           21,18,19,20,21,18,19,20,21,28,-14,86,18,23,18,19,20,21,18,19,20,21,18,19,20,21,18,19,20,21,28,-29,86,

@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"tm_esqueleto_testes",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/tm_esqueleto_testes/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,

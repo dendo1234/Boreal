@@ -13,19 +13,20 @@ enum SKELETON_STATES {
 
 center_x = x // const
 center_y = y // const
+target_speed = 1
+speed = target_speed
 
 
 state = SKELETON_STATES.IDLE
 action_wait = 100
-speed = 1
 
-var _start_angle = random(360)
-direction = _start_angle
-var _radius = 16 // const
-var _circumference = _radius*2*pi
+angle = random(360)
+direction = angle + 90
+radius = 32 // const
+var _circumference = radius*2*pi
 deg_turn_speed = 360*speed/_circumference
 
 
-x = x + cos(_start_angle)*_radius
-y = y + sin(_start_angle)*_radius
+x = x + cos(angle)*radius
+y = y + sin(angle)*radius
 

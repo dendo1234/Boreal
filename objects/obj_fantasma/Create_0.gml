@@ -11,6 +11,9 @@ enum STATES {
 	ATTACK
 }
 
+melee_dmg = 10
+melee_cooldown = 0.5
+
 state = STATES.IDLE
 
 move_accel = 3.0	// Const

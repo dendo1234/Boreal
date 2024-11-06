@@ -11,6 +11,9 @@ enum SKELETON_STATES {
 	MELEE		
 }
 
+melee_dmg = 25
+melee_cooldown = 1
+
 center_x = x // const
 center_y = y // const
 target_speed = 1

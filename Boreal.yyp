@@ -70,6 +70,7 @@
     {"id":{"name":"spr_fantasma_boss_hurt","path":"sprites/spr_fantasma_boss_hurt/spr_fantasma_boss_hurt.yy",},},
     {"id":{"name":"spr_fantasma_boss","path":"sprites/spr_fantasma_boss/spr_fantasma_boss.yy",},},
     {"id":{"name":"spr_fantasma","path":"sprites/spr_fantasma/spr_fantasma.yy",},},
+    {"id":{"name":"spr_vida","path":"sprites/spr_vida/spr_vida.yy",},},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
     {"id":{"name":"ts_collision","path":"tilesets/ts_collision/ts_collision.yy",},},
     {"id":{"name":"ts_dungeon_tiles","path":"tilesets/ts_dungeon_tiles/ts_dungeon_tiles.yy",},},

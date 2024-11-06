@@ -20,7 +20,7 @@ if (action_wait <= 0) {
 	var _atributes = {
 		direction : _direction,
 		image_angle : _direction,
-		speed : 10
+		speed : 3
 	}
 	instance_create_depth(x, y, -1, obj_bone, _atributes)
 	action_wait = 100

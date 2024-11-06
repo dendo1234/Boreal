@@ -16,8 +16,8 @@ var _aurora_x = obj_aurora.x
 var _aurora_y = obj_aurora.y
 	
 if (action_wait <= 0) {
-	var _aurora_x = obj_aurora.x
-	var _aurora_y = obj_aurora.y
+	_aurora_x = obj_aurora.x
+	_aurora_y = obj_aurora.y
 	var _direction = point_direction(x, y, _aurora_x, _aurora_y)
 	var _atributes = {
 		direction : _direction,

@@ -52,7 +52,7 @@ if (state == STATES.ATTACK and state_timer < 0) {
 	velocity_y *= 0.25
 }
 
-if (state != STATES.ATTACK) {
+if (state != STATES.ATTACK and state != STATES.CHARGE) {
 	attack_dir_x = _target_dir_x
 	attack_dir_y = _target_dir_y
 }
@@ -73,8 +73,11 @@ if (state == STATES.IDLE or state == STATES.MOVE) {
 
 if (state == STATES.MOVE) {
 	// Apply move towards player
-	velocity_x += _target_dir_x * move_accel
-	velocity_y += _target_dir_y * move_accel
+	// Avoid getting too close
+	var _accel = move_accel
+	if (_target_len < attack_radius*0.9) _accel *= -0.5
+	velocity_x += _target_dir_x * _accel
+	velocity_y += _target_dir_y * _accel
 }
 
 if (state == STATES.CHARGE) {

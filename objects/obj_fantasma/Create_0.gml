@@ -13,18 +13,18 @@ enum STATES {
 
 state = STATES.IDLE
 
-move_accel = 5.0	// Const
+move_accel = 3.0	// Const
 move_damping = 0.975	// Const
 attack_speed = 750.0	// Const
 
-detect_radius = 500.0	// Const
-attack_radius = 300.0	// Const
+detect_radius = 200.0	// Const
+attack_radius = 100.0	// Const
 
 wobble_freq = 3.0	// Const
 wobble_amp = 50	// Const
 
-charge_time = 0.8	// Const
-attack_time = 0.3	// Const
+charge_time = 0.4	// Const
+attack_time = 0.15	// Const
 cooldown_time = 2.5	// Const
 state_timer = cooldown_time
 

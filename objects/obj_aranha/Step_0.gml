@@ -11,6 +11,14 @@ if (_is_pursuing) {
     _is_pursuing = false;
 }
 
+//girar dependendo do x da aurora
+if (x < obj_aurora.x){
+	image_xscale = 1; // Inverte a imagem horizontalmente
+
+}else{
+	image_xscale = -1
+}
+
 var _offset_x = random_range(-20, 20);
 var _offset_y = random_range(-20, 20);
 var _target_x = obj_aurora.x + _offset_x;

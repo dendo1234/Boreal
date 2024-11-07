@@ -8,7 +8,6 @@ melee_dmg = 20
 move_accel = 2.0	// Const
 attack_speed = 550.0	// Const
 attack_time = 0.25	// Const
-hp = 30
 detect_radius = 120.0	// Const
 prev_hp = hp
 

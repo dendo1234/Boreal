@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-hp = 3
+hp = max_hp
 
 melee_dmg = 1
 melee_cooldown = 0.5

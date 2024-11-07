@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bone",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_aurora","path":"objects/obj_aurora/obj_aurora.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_esqueleto_boss_bullet",
+  "eventList":[],
   "managed":true,
-  "name":"obj_bone",
+  "name":"obj_esqueleto_boss_bullet",
   "overriddenProperties":[],
   "parent":{
     "name":"g_obj_esqueleto",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bone",
-    "path":"sprites/spr_bone/spr_bone.yy",
+    "name":"spr_esqueleto_boss_bullet",
+    "path":"sprites/spr_esqueleto_boss_bullet/spr_esqueleto_boss_bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

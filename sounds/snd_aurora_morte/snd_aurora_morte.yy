@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_aurora_morte",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.744,
+  "name":"snd_aurora_morte",
+  "parent":{
+    "name":"g_snd_aurora",
+    "path":"folders/Sons/g_snd_aurora.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_aurora_morte.mp3",
+  "type":0,
+  "volume":1.0,
+}

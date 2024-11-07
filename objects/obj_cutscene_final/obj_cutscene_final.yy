@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cutscene",
+  "%Name":"obj_cutscene_final",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cutscene",
+  "name":"obj_cutscene_final",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_cutscene_final",
+    "path":"sprites/spr_cutscene_final/spr_cutscene_final.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

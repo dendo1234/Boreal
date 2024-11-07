@@ -12,7 +12,5 @@ if (instance_exists(obj_livro)) {
 		global.aurora_y = obj_aurora.y;
 		obj_cutscene_livro.visible = true;
 		global.leu_o_livro = true;
-		
-	    //room_goto(rm_cutscene_livro); // Troca para a sala da cutscene
     }
 }

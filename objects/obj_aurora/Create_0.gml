@@ -3,7 +3,7 @@
 
 
 spd = 2
-max_hp = 50
+max_hp = 500
 hp = max_hp
 
 fade_wait = 50

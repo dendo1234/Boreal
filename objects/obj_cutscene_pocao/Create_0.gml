@@ -2,4 +2,4 @@
 // You can write your code in this editor
 visible = false;
 
-tempo_pocao = 0;
+tempo = 0;

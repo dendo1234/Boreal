@@ -4,7 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-hp = 30
 last_hp = hp
 hurt_timer = 0
 

@@ -16,7 +16,7 @@ var _aurora_y = obj_aurora.y
 if (action_wait <= 0) {
 	_aurora_x = obj_aurora.x
 	_aurora_y = obj_aurora.y
-	if (distance_to_point(_aurora_x, _aurora_y) < 500) {
+	if (distance_to_point(_aurora_x, _aurora_y) < 400) {
 		var _direction = point_direction(x, y, _aurora_x, _aurora_y)
 		var _atributes = {
 			direction : _direction,

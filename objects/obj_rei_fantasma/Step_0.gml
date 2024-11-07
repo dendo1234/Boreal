@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// Sniper protection
+if (state == STATES.IDLE and hp != prev_hp)	state = STATES.MOVE
+prev_hp = hp
+
 // Inherit the parent event
 event_inherited();
 
@@ -25,6 +29,8 @@ if (prev_state == STATES.ATTACK and state == STATES.IDLE and random_range(0,1)  
 	}
 	x = obj_aurora.x + _offset_x
 	y = obj_aurora.y + _offset_y
+	velocity_x = 0
+	velocity_y = 0
 }
 
 prev_state = state

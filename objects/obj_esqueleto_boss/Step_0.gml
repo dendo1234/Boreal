@@ -25,7 +25,7 @@ if (hurt_timer <= 0) {
 
 hurt_timer--
 
-if (distance_to_point(obj_aurora.x, obj_aurora.y) > 800) return
+if (distance_to_point(obj_aurora.x, obj_aurora.y) > 600) return
 
 switch (state) {
 	case SKELETON_BOSS_STATES.SPIN_ATTACK_CHARGE:

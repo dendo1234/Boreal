@@ -8,7 +8,9 @@
   ],
   "managed":true,
   "name":"obj_esqueleto_boss",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},"propertyId":{"name":"max_hp","path":"objects/obj_inimigo/obj_inimigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+  ],
   "parent":{
     "name":"g_obj_esqueleto",
     "path":"folders/Objetos/g_obj_inimigos/g_obj_esqueleto.yy",

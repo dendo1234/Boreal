@@ -7,3 +7,5 @@ draw_circle(center_x,center_y,4, false)
 }
 
 draw_self()
+
+event_inherited();

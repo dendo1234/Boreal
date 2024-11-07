@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_book",
-  "eventList":[],
+  "%Name":"obj_magic_book",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_book",
+  "name":"obj_magic_book",
   "overriddenProperties":[],
   "parent":{
     "name":"g_obj_esqueleto",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_livro",
-    "path":"sprites/spr_livro/spr_livro.yy",
+    "name":"spr_magic_book",
+    "path":"sprites/spr_magic_book/spr_magic_book.yy",
   },
   "spriteMaskId":null,
   "visible":true,

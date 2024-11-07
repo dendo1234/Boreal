@@ -21,7 +21,7 @@ speed = target_speed
 
 
 state = SKELETON_STATES.IDLE
-action_wait = 100
+action_wait = 90 + random(20)
 
 angle = random(360)
 direction = angle + 90

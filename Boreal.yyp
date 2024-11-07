@@ -1186,9 +1186,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_fantasma","path":"rooms/rm_fantasma/rm_fantasma.yy",},},
     {"roomId":{"name":"Aranha","path":"rooms/Aranha/Aranha.yy",},},
     {"roomId":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},
-    {"roomId":{"name":"rm_fantasma","path":"rooms/rm_fantasma/rm_fantasma.yy",},},
     {"roomId":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},
     {"roomId":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},
     {"roomId":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},

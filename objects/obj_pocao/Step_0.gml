@@ -8,6 +8,9 @@ if (instance_exists(obj_pocao)) {
 		global.aurora_x = obj_aurora.x;
 		global.aurora_y = obj_aurora.y;
 		global.proxima_sala = Aranha;
-        room_goto(rm_cutscene_pocao); // Troca para a sala da cutscene
+		
+		obj_cutscene_pocao.visible = true;
+		
+        //room_goto(rm_cutscene_pocao); // Troca para a sala da cutscene
     }
 }

@@ -10,10 +10,8 @@ if (instance_exists(obj_livro)) {
         // Cria a instância do objeto que exibe a imagem
 		global.aurora_x = obj_aurora.x;
 		global.aurora_y = obj_aurora.y;
-		global.proxima_sala = room;
+		obj_cutscene_livro.visible = true;
 		
-		instance_destroy(obj_aurora);
-		
-	    room_goto(rm_cutscene_livro); // Troca para a sala da cutscene
+	    //room_goto(rm_cutscene_livro); // Troca para a sala da cutscene
     }
 }

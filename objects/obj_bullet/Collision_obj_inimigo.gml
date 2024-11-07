@@ -2,5 +2,5 @@
 // Você pode escrever seu código neste editor
 
 
-other.hp -=  20
+other.hp -=  1
 instance_destroy()

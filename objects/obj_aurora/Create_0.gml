@@ -21,7 +21,7 @@ enum WEAPON {
 	SWORD
 }
 
-weapon = WEAPON.GUN
+weapon = WEAPON.NONE
 
 function aurora_set_basic_sprite(_weapon) {
 	image_speed = 5

@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-
+_is_pursuing = false
 melee_dmg = 1
 melee_cooldown = 0.125
 spd = 1

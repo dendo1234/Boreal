@@ -43,7 +43,7 @@ if ( tempo > 340 and tempo <= 540 ){
 
 		
 	}
-	if ( tempo%25 = 0 ){
+	if ( tempo%30 = 0 ){
 	instance_create_depth(x, y, -10, obj_veneno, _atribute)
 	instance_create_depth(x, y, -10, obj_veneno, _atribute2)
 	instance_create_depth(x, y, -10, obj_veneno, _atribute2)
@@ -53,7 +53,7 @@ if ( tempo > 340 and tempo <= 540 ){
 }
 
 if (tempo > 0 and tempo <= 300  ){
-	if (tempo%25 = 0){
+	if (tempo%30 = 0){
 	instance_create_depth(x, y, -10, obj_veneno, _atribute)
 	}
 }

@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_aranha",
+  "%Name":"Barra_vida",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_aranha",
+  "name":"Barra_vida",
   "overriddenProperties":[],
   "parent":{
     "name":"aranha",
     "path":"folders/Objetos/g_obj_inimigos/aranha.yy",
   },
-  "parentObjectId":{
-    "name":"obj_inimigo",
-    "path":"objects/obj_inimigo/obj_inimigo.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_aranha",
-    "path":"sprites/spr_aranha/spr_aranha.yy",
+    "name":"Sprite30",
+    "path":"sprites/Sprite30/Sprite30.yy",
   },
   "spriteMaskId":null,
   "visible":true,

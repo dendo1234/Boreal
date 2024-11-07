@@ -12,3 +12,5 @@ x = 1180
 y = 90
 
 treme = 0
+
+_is_pursuing = false

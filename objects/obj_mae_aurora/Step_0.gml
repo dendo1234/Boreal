@@ -1,9 +1,13 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+function change_room() {
+	room_goto(rm_gameover)
+}
+
 if (hp <= 0) {
 	//perdeu
-	call_later(time_source_units_seconds, 3,room_goto(rm_gameover))
+	call_later(3, time_source_units_seconds,change_room)
 
 	instance_destroy()
 

@@ -9,8 +9,8 @@
   "name":"obj_magic_book",
   "overriddenProperties":[],
   "parent":{
-    "name":"g_obj_esqueleto",
-    "path":"folders/Objetos/g_obj_inimigos/g_obj_esqueleto.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

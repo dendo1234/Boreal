@@ -1,11 +1,16 @@
 {
   "$GMTileSet":"v1",
   "%Name":"ts_collision",
-  "autoTileSets":[],
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":true,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      ],},
+  ],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":24,
+    "SerialiseWidth":15,
+    "TileCompressedData":[-47,0,1,1610612737,-312,0,],
+    "TileDataFormat":1,
   },
   "name":"ts_collision",
   "out_columns":1,

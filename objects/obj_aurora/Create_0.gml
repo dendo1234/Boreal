@@ -20,3 +20,6 @@ enum WEAPON {
 }
 
 weapon = WEAPON.GUN
+
+
+global._distancia_interacao = 16

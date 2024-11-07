@@ -41,7 +41,7 @@ switch (state) {
 		}
 	break
 	case SKELETON_BOSS_STATES.SPIN_ATTACK_SHOOT:
-		if (state_timer % (25-(2*hp)) == 0) {
+		if (state_timer % (30-hp) == 0) {
 			
 			var _bullet_number = 1 + hp
 			for (var _i = 0; _i < _bullet_number; _i++) {

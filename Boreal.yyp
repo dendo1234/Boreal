@@ -1174,7 +1174,6 @@
     {"id":{"name":"spr_coroa","path":"sprites/spr_coroa/spr_coroa.yy",},},
     {"id":{"name":"spr_cutscene_celular","path":"sprites/spr_cutscene_celular/spr_cutscene_celular.yy",},},
     {"id":{"name":"spr_cutscene_livro","path":"sprites/spr_cutscene_livro/spr_cutscene_livro.yy",},},
-    {"id":{"name":"spr_cutscene_pocao","path":"sprites/spr_cutscene_pocao/spr_cutscene_pocao.yy",},},
     {"id":{"name":"spr_dungeon_tiles","path":"sprites/spr_dungeon_tiles/spr_dungeon_tiles.yy",},},
     {"id":{"name":"spr_esqueleto_boss_bullet","path":"sprites/spr_esqueleto_boss_bullet/spr_esqueleto_boss_bullet.yy",},},
     {"id":{"name":"spr_esqueleto_boss_hurt","path":"sprites/spr_esqueleto_boss_hurt/spr_esqueleto_boss_hurt.yy",},},

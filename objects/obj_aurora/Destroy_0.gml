@@ -6,4 +6,4 @@ function change_room_gameover() {
 }
 
 
-call_later(2, time_source_units_seconds, change_room_gameover)
+call_later(1, time_source_units_seconds, change_room_gameover)

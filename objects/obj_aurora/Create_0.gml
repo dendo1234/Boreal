@@ -39,9 +39,3 @@ sprite_index = aurora_set_basic_sprite(weapon)
 
 
 global._distancia_interacao = 16
-
-if (variable_global_exists("aurora_x") && variable_global_exists("aurora_y")) {
-    // Aplica a nova posição calculada
-    x = global.aurora_x;
-    y = global.aurora_y;
-}

@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_rei_fantasma",
+  "%Name":"Barra_vida_esqueleto",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_rei_fantasma",
+  "name":"Barra_vida_esqueleto",
   "overriddenProperties":[],
   "parent":{
-    "name":"g_obj_inimigos",
-    "path":"folders/Objetos/g_obj_inimigos.yy",
+    "name":"g_obj_esqueleto",
+    "path":"folders/Objetos/g_obj_inimigos/g_obj_esqueleto.yy",
   },
-  "parentObjectId":{
-    "name":"obj_fantasma",
-    "path":"objects/obj_fantasma/obj_fantasma.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fantasma_boss",
-    "path":"sprites/spr_fantasma_boss/spr_fantasma_boss.yy",
+    "name":"Sprite30",
+    "path":"sprites/Sprite30/Sprite30.yy",
   },
   "spriteMaskId":null,
   "visible":true,

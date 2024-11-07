@@ -19,11 +19,13 @@
     {"name":"inst_69C73066","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
     {"name":"inst_3EFAFFE4","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
     {"name":"inst_3455B290","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
+    {"name":"inst_5BAD0BDD","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"UI_layer","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_3455B290","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3455B290","objectId":{"name":"obj_ui_hp","path":"objects/obj_ui_hp/obj_ui_hp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":6.0,"x":32.0,"y":640.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5BAD0BDD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5BAD0BDD","objectId":{"name":"Barra_vida_esqueleto","path":"objects/Barra_vida_esqueleto/Barra_vida_esqueleto.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.9,"scaleY":0.5,"x":736.0,"y":1696.0,},
       ],"layers":[],"name":"UI_layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_57F3B3CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57F3B3CC","objectId":{"name":"obj_aurora","path":"objects/obj_aurora/obj_aurora.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":1696.0,},

@@ -12,4 +12,5 @@ if (instance_exists(obj_pocao)) {
 		obj_cutscene_pocao.visible = true;
 		
     }
+		
 }

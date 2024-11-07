@@ -1,4 +1,3 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-other.hp -= 4
-instance_destroy()
+audio_play_sound(snd_sider,0,false,0.7,1)

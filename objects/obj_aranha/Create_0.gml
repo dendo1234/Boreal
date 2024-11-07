@@ -13,3 +13,4 @@ previous_hp = hp
 _damage_sprite_timer = 0
 _damage_animation_length = 7
 
+

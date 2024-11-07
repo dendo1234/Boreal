@@ -43,7 +43,7 @@ trail_count = 5
 trail_array = []
 
 for(i = 0; i < trail_count; i++) {
-	var _trail = instance_create_depth(x, y, +1, obj_fantasma_trail)
+	var _trail = instance_create_depth(x, y, +100, obj_fantasma_trail)
 	_trail.image_xscale = image_xscale
 	_trail.image_yscale = image_yscale	
 	_trail.image_alpha = (1 - (i / trail_count)) * 0.5

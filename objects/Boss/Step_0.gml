@@ -49,8 +49,6 @@ if (_distance < 400 || _is_pursuing) {
         if (tempo % 40 == 0) {
             instance_create_depth(x, y, -10, obj_veneno, _attribute);
             instance_create_depth(x, y, -10, obj_veneno, _attribute2);
-            instance_create_depth(x, y, -10, obj_veneno, _attribute2);
-            instance_create_depth(x, y, -10, obj_veneno, _attribute2);
         }
     }
 

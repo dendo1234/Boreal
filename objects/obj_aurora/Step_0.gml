@@ -15,17 +15,38 @@ var _dx = cos(_direction) * spd
 var _dy = -sin(_direction) * spd
 direction = radtodeg(_direction)
 
-if (direction >= 180 or direction == 0) {
-    sprite_index = spr_aurora_running_front_left
-} else {
-    sprite_index = spr_aurora_running_back_left
+if (attack_animation_timer == 0) {
+	sprite_index = aurora_set_basic_sprite(weapon)
 }
 
-if (direction > 270 or direction < 90) {
-    image_xscale = -1
-} else {
-    image_xscale = 1
+attack_animation_timer--
+
+if (attack_animation_timer <= 0) {
+	if (direction >= 180 or direction == 0) {
+	    sprite_index = aurora_set_basic_sprite(weapon)
+	} else {
+	    sprite_index = spr_aurora_running_back_left
+	}
+	
+	if (direction > 270 or direction < 90) {
+		image_xscale = -1
+	} else {
+		image_xscale = 1
+	}
+	
+	
 }
+
+if (attack_animation_timer > 0) {
+	if (attack_angle > 270 or attack_angle < 90) {
+		image_xscale = -1
+	} else {
+		image_xscale = 1
+	}
+}
+	
+
+
 
 if (_directionx != 0 or _directiony != 0) {
     if (collision_tile_map != -1) {
@@ -85,6 +106,19 @@ if (mouse_check_button_pressed(mb_left) and attack_wait <= 0) {
 		    instance_create_depth(x - 10 , y, -10, obj_bullet, _attribute) // Ajuste para que a bala saia 3 pixels à direita do centro do corpo
 		    audio_play_sound(snd_pistol_shot, 1, false, 0.3, 0, 0.9 + random(0.2))
     
+			attack_animation_timer = 10
+			
+			_direction = (_direction + 360) % 360
+			
+			attack_angle = _direction
+			sprite_index = spr_aurora_aiming_gun
+			
+			if (_direction > 270 or _direction < 90) {
+				image_xscale = -1
+			} else {
+				image_xscale = 1
+			}
+			
 		    attack_wait = 20
 		break
 		case WEAPON.SWORD:

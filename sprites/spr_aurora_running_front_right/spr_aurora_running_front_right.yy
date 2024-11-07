@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"spr_aurora_running_front_right",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":29,
   "bbox_left":6,
   "bbox_right":21,

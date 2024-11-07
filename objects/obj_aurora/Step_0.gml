@@ -141,3 +141,24 @@ if (mouse_check_button_pressed(mb_left) and attack_wait <= 0) {
 }
 
 attack_wait -= 1
+
+
+// Tomando dano
+if (previous_hp > hp) {
+    // Guardar o sprite original
+    _original_sprite = sprite_index;
+    
+    // Trocar para o sprite de dano
+    sprite_index = spr_aurora_damage;
+    _damage_sprite_timer = _damage_animation_length; // Duração em frames da animação de dano
+}
+
+previous_hp = hp; // Atualizar o valor de hp anterior
+
+// Redefinir sprite após o temporizador expirar
+if (_damage_sprite_timer > 0) {
+    _damage_sprite_timer -= 1;
+    if (_damage_sprite_timer == 0) {
+        sprite_index = _original_sprite; // Retornar ao sprite original
+    }
+}

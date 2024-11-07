@@ -5,6 +5,8 @@
 event_inherited();
 
 hp = 10
+last_hp = hp
+hurt_timer = 0
 
 enum SKELETON_BOSS_STATES {
 	IDLE,
@@ -22,3 +24,4 @@ home_x = x
 home_y = y
 target_x = 0
 target_y = 0
+

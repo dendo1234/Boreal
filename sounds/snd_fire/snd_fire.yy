@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_skeleton_death",
+  "%Name":"snd_fire",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.872,
-  "name":"snd_skeleton_death",
+  "duration":0.768,
+  "name":"snd_fire",
   "parent":{
     "name":"g_snd_esqueleto",
     "path":"folders/Sons/g_snd_esqueleto.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_skeleton_death.mp3",
+  "soundFile":"snd_fire.mp3",
   "type":0,
   "volume":1.0,
 }

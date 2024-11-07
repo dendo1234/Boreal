@@ -1,2 +1,3 @@
 room_e = rm_tutorial
-texto = "Precione 'E' ou 'delete' para iniciar"
+room_f = rm_lab
+texto = ""

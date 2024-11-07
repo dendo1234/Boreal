@@ -48,6 +48,7 @@
   },
   "name":"Boreal",
   "resources":[
+    {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
     {"id":{"name":"Barra_vida_esqueleto","path":"objects/Barra_vida_esqueleto/Barra_vida_esqueleto.yy",},},
     {"id":{"name":"Barra_vida_esqueleto","path":"objects/Barra_vida_esqueleto/Barra_vida_esqueleto.yy",},},
     {"id":{"name":"barra_vida_fantasma","path":"objects/barra_vida_fantasma/barra_vida_fantasma.yy",},},
@@ -165,6 +166,7 @@
     {"id":{"name":"Sprite30_3","path":"sprites/Sprite30_3/Sprite30_3.yy",},},
     {"id":{"name":"Sprite30_4","path":"sprites/Sprite30_4/Sprite30_4.yy",},},
     {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},},
+    {"id":{"name":"Sprite54","path":"sprites/Sprite54/Sprite54.yy",},},
     {"id":{"name":"TileSet8","path":"tilesets/TileSet8/TileSet8.yy",},},
     {"id":{"name":"ts_cama","path":"tilesets/ts_cama/ts_cama.yy",},},
     {"id":{"name":"ts_collision","path":"tilesets/ts_collision/ts_collision.yy",},},
@@ -177,8 +179,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Aranha","path":"rooms/Aranha/Aranha.yy",},},
     {"roomId":{"name":"rm_menu_principal","path":"rooms/rm_menu_principal/rm_menu_principal.yy",},},
+    {"roomId":{"name":"Aranha","path":"rooms/Aranha/Aranha.yy",},},
     {"roomId":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},
     {"roomId":{"name":"rm_fantasma","path":"rooms/rm_fantasma/rm_fantasma.yy",},},
     {"roomId":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},

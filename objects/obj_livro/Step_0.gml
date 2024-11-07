@@ -8,6 +8,12 @@ if (instance_exists(obj_livro)) {
     // Verifica se Aurora está próxima o suficiente e a tecla 'E' foi pressionada
     if (_distancia_ao_objeto <= global._distancia_interacao && keyboard_check_pressed(69)) {
         // Cria a instância do objeto que exibe a imagem
-		show_message("Funcionou.")
+		global.aurora_x = obj_aurora.x;
+		global.aurora_y = obj_aurora.y;
+		global.proxima_sala = room;
+		
+		instance_destroy(obj_aurora);
+		
+	    room_goto(rm_cutscene_livro); // Troca para a sala da cutscene
     }
 }

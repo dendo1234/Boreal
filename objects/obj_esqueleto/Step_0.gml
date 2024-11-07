@@ -16,7 +16,7 @@ var _aurora_y = obj_aurora.y
 if (action_wait <= 0) {
 	_aurora_x = obj_aurora.x
 	_aurora_y = obj_aurora.y
-	if (distance_to_point(_aurora_x, _aurora_y) < 500) {
+	if (distance_to_point(_aurora_x, _aurora_y) < 400) {
 		var _direction = point_direction(x, y, _aurora_x, _aurora_y)
 		var _atributes = {
 			direction : _direction,
@@ -65,4 +65,25 @@ angle += deg_turn_speed
 angle = (360 + angle) % 360
 direction = angle + 90*sign(deg_turn_speed)
 action_wait--
+
+// Tomando dano
+if (previus_hp2 > hp) {
+    // Guardar o sprite original
+    _original_sprite = sprite_index;
+	audio_play_sound(dano_inimigo,0,false)
+    
+    // Trocar para o sprite de dano
+    sprite_index = spr_esqueleto_dano;
+    _damage_sprite_timer = _damage_animation_length; // Duração em frames da animação de dano
+}
+
+previus_hp2 = hp; // Atualizar o valor de hp anterior
+
+// Redefinir sprite após o temporizador expirar
+if (_damage_sprite_timer > 0) {
+    _damage_sprite_timer -= 1;
+    if (_damage_sprite_timer == 0) {
+        sprite_index = _original_sprite; // Retornar ao sprite original
+    }
+}
 	

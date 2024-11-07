@@ -42,3 +42,5 @@ previous_hp = hp
 _damage_sprite_timer = 0
 _damage_animation_length = 6
 _original_sprite = sprite_index
+
+

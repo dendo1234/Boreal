@@ -70,6 +70,7 @@ if (_distance < 400 || _is_pursuing) {
 if (previous_hp > hp) {
     // Guardar o sprite original
     _original_sprite = sprite_index;
+	audio_play_sound(dano_inimigo,0,false)
     
     // Trocar para o sprite de dano
     sprite_index = bosstomandodano;

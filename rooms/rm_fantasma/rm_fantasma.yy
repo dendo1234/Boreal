@@ -23,6 +23,8 @@
     {"name":"inst_74D823DB","path":"rooms/rm_fantasma/rm_fantasma.yy",},
     {"name":"inst_4F753303_1","path":"rooms/rm_fantasma/rm_fantasma.yy",},
     {"name":"inst_1A5FB234","path":"rooms/rm_fantasma/rm_fantasma.yy",},
+    {"name":"inst_FE2672C","path":"rooms/rm_fantasma/rm_fantasma.yy",},
+    {"name":"inst_1235B455","path":"rooms/rm_fantasma/rm_fantasma.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -49,6 +51,7 @@
         {"$GMRInstance":"v1","%Name":"inst_90A0986","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_90A0986","objectId":{"name":"obj_fantasma","path":"objects/obj_fantasma/obj_fantasma.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":219.0,"y":1105.0,},
         {"$GMRInstance":"v1","%Name":"inst_74D823DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74D823DB","objectId":{"name":"obj_rei_fantasma","path":"objects/obj_rei_fantasma/obj_rei_fantasma.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":635.0,"y":1708.0,},
         {"$GMRInstance":"v1","%Name":"inst_FE2672C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_FE2672C","objectId":{"name":"barra_vida_fantasma","path":"objects/barra_vida_fantasma/barra_vida_fantasma.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":1664.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1235B455","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1235B455","objectId":{"name":"trilha_sonora","path":"objects/trilha_sonora/trilha_sonora.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"tm_collision","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tm_collision","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":75,"TileCompressedData":[
           -344,0,-25,1,-50,0,1,1,-23,0,1,1,-50,0,1,1,-23,0,1,1,-50,0,1,1,-23,0,1,1,-50,0,1,1,-23,0,1,1,-32,0,-19,

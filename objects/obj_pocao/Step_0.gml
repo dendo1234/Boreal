@@ -7,7 +7,7 @@ if (instance_exists(obj_pocao)) {
         // Cria a instância do objeto que exibe a imagem
 		global.aurora_x = obj_aurora.x;
 		global.aurora_y = obj_aurora.y;
-		global.proxima_sala = Aranha;
+		global.proxima_sala = rm_fantasma;
 		
 		obj_cutscene_pocao.visible = true;
 		

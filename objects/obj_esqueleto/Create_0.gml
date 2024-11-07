@@ -21,15 +21,18 @@ speed = target_speed
 
 
 state = SKELETON_STATES.IDLE
-action_wait = 100
+action_wait = 90 + random(20)
 
 angle = random(360)
 direction = angle + 90
-radius = 32 // const
+radius = 48 // const
 var _circumference = radius*2*pi
 deg_turn_speed = 360*speed/_circumference
 
 
-x = x + cos(angle)*radius
-y = y + sin(angle)*radius
+
+x = x + cos(degtorad(angle))*radius
+y = y - sin(degtorad(angle))*radius
+
+
 

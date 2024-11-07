@@ -12,8 +12,8 @@
   "duration":1.872,
   "name":"snd_skeleton_death",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"g_snd_esqueleto",
+    "path":"folders/Sons/g_snd_esqueleto.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

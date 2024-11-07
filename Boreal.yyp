@@ -91,6 +91,7 @@
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},
     {"id":{"name":"rm_menu_principal","path":"rooms/rm_menu_principal/rm_menu_principal.yy",},},
+    {"id":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"id":{"name":"snd_aranha_ts","path":"sounds/snd_aranha_ts/snd_aranha_ts.yy",},},
     {"id":{"name":"snd_bone_throw","path":"sounds/snd_bone_throw/snd_bone_throw.yy",},},
@@ -147,6 +148,7 @@
     {"id":{"name":"spr_pocao","path":"sprites/spr_pocao/spr_pocao.yy",},},
     {"id":{"name":"spr_roombuilder","path":"sprites/spr_roombuilder/spr_roombuilder.yy",},},
     {"id":{"name":"spr_seta","path":"sprites/spr_seta/spr_seta.yy",},},
+    {"id":{"name":"spr_tutorial","path":"sprites/spr_tutorial/spr_tutorial.yy",},},
     {"id":{"name":"spr_vida","path":"sprites/spr_vida/spr_vida.yy",},},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},},
     {"id":{"name":"Sprite30_1","path":"sprites/Sprite30_1/Sprite30_1.yy",},},
@@ -176,6 +178,7 @@
     {"roomId":{"name":"rm_cutscene_pocao","path":"rooms/rm_cutscene_pocao/rm_cutscene_pocao.yy",},},
     {"roomId":{"name":"rm_cutscene_livro","path":"rooms/rm_cutscene_livro/rm_cutscene_livro.yy",},},
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
+    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

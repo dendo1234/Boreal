@@ -26,10 +26,10 @@ if (_distance < 400 || _is_pursuing) {
 			}
 		}
 		if (tempo > 340 and tempo <= 380 ){
-			y = y + 2
+			y = y + 2.2
 		}
 		if (tempo > 380 and tempo <= 540 ){
-			y = y - 2.4
+			y = y - 2
 		}
 
 
@@ -52,7 +52,7 @@ if (_distance < 400 || _is_pursuing) {
 
 		
 			}
-			if ( tempo%30 = 0 ){
+			if ( tempo%40 = 0 ){
 			instance_create_depth(x, y, -10, obj_veneno, _atribute)
 			instance_create_depth(x, y, -10, obj_veneno, _atribute2)
 			instance_create_depth(x, y, -10, obj_veneno, _atribute2)
@@ -62,7 +62,7 @@ if (_distance < 400 || _is_pursuing) {
 		}
 
 		if (tempo > 0 and tempo <= 300  ){
-			if (tempo%30 = 0){
+			if (tempo%40 = 0){
 			instance_create_depth(x, y, -10, obj_veneno, _atribute)
 			}
 		}

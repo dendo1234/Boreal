@@ -1115,6 +1115,7 @@
     {"id":{"name":"snd_boo","path":"sounds/snd_boo/snd_boo.yy",},},
     {"id":{"name":"snd_pistol_shot","path":"sounds/snd_pistol_shot/snd_pistol_shot.yy",},},
     {"id":{"name":"snd_running","path":"sounds/snd_running/snd_running.yy",},},
+    {"id":{"name":"snd_sider","path":"sounds/snd_sider/snd_sider.yy",},},
     {"id":{"name":"snd_skeleton_death","path":"sounds/snd_skeleton_death/snd_skeleton_death.yy",},},
     {"id":{"name":"snd_whimper","path":"sounds/snd_whimper/snd_whimper.yy",},},
     {"id":{"name":"Bossandando","path":"sprites/Bossandando/Bossandando.yy",},},

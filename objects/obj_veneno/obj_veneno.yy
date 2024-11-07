@@ -8,8 +8,8 @@
   "name":"obj_veneno",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"aranha",
+    "path":"folders/Objetos/g_obj_inimigos/aranha.yy",
   },
   "parentObjectId":null,
   "persistent":false,

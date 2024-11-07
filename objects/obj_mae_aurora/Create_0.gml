@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-instance_create_depth(x-32, y-40, 0, obj_seta)
+instance_create_depth(x-16, y-32, 0, obj_seta)

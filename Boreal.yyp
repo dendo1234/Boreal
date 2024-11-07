@@ -1213,10 +1213,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},
     {"roomId":{"name":"rm_menu_principal","path":"rooms/rm_menu_principal/rm_menu_principal.yy",},},
     {"roomId":{"name":"Aranha","path":"rooms/Aranha/Aranha.yy",},},
     {"roomId":{"name":"rm_fantasma","path":"rooms/rm_fantasma/rm_fantasma.yy",},},
-    {"roomId":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},
     {"roomId":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_dungeon","path":"rooms/rm_dungeon/rm_dungeon.yy",},},

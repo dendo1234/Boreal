@@ -1,22 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_rei_fantasma",
+  "%Name":"obj_pickup",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_aurora","path":"objects/obj_aurora/obj_aurora.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_rei_fantasma",
+  "name":"obj_pickup",
   "overriddenProperties":[],
   "parent":{
-    "name":"g_obj_inimigos",
-    "path":"folders/Objetos/g_obj_inimigos.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
-  "parentObjectId":{
-    "name":"obj_fantasma",
-    "path":"objects/obj_fantasma/obj_fantasma.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_fantasma_boss",
-    "path":"sprites/spr_fantasma_boss/spr_fantasma_boss.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,4 +1,3 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-
-instance_create_depth(x,y,0,obj_magic_book)
+audio_play_sound(snd_sider,0,false,0.7,1)

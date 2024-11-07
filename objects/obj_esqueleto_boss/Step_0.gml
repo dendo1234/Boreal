@@ -43,7 +43,7 @@ switch (state) {
 	case SKELETON_BOSS_STATES.SPIN_ATTACK_SHOOT:
 		if (state_timer % (25-(2*hp)) == 0) {
 			
-			var _bullet_number = 10 + hp
+			var _bullet_number = 1 + hp
 			for (var _i = 0; _i < _bullet_number; _i++) {
 				var _atributes = {
 					direction : _i*(360/_bullet_number),
@@ -55,7 +55,7 @@ switch (state) {
 		audio_play_sound(snd_fire, -1, false, 1, 0, 0.9 + random(0.2))
 		state_timer--
 		if (state_timer <= 0) {
-			state_total_timer = 50 + random(100)
+			state_total_timer = 50 + random(100) + 20/hp
 			state_timer = state_total_timer
 			state = SKELETON_BOSS_STATES.IDLE
 		}

@@ -47,7 +47,7 @@ if (_distance < 400 || _is_pursuing) {
             image_xscale: 1,
             image_yscale: 1
         }
-        if (tempo % 40 == 0) {
+        if (tempo % 50 == 0) {
             instance_create_depth(x, y, -10, obj_veneno, _attribute);
             instance_create_depth(x, y, -10, obj_veneno, _attribute2);
         }

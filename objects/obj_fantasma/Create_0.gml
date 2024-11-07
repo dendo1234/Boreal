@@ -11,7 +11,7 @@ enum STATES {
 	ATTACK
 }
 
-melee_dmg = 10
+melee_dmg = 5
 melee_cooldown = 0.5
 
 state = STATES.IDLE

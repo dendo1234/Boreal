@@ -28,7 +28,7 @@ if (room == Aranha) {
         var _time = 0; // Tempo em milissegundos para a transição de volume, use 0 para alteração imediata
         audio_sound_gain(music_audio_id2, _volume, _time);
     }
-} else if ( room == rm_esqueleto or room == rm_fantasma) {
+} else if ( room != Aranha) {
 	audio_stop_sound(music_audio_id2);
     
 }
@@ -50,5 +50,24 @@ if (room == rm_esqueleto) {
         audio_stop_sound(music_audio_id3);
     }
 }
+
+if (room == rm_menu_principal) {
+    // Verificar se a música não está tocando
+    if (!audio_is_playing(music_audio_id4)) {
+        // Reproduzir a música e armazenar o ID do áudio
+        music_audio_id4 = audio_play_sound(snd_ts_base, 0, true);
+        
+        // Ajustar o volume da música
+        var _volume = 0.07; // Defina o volume desejado (0.0 a 1.0)
+        var _time = 0; // Tempo em milissegundos para a transição de volume, use 0 para alteração imediata
+        audio_sound_gain(music_audio_id4, _volume, _time);
+    }
+} else {
+    // Parar a música se sairmos da sala
+    if (audio_is_playing(music_audio_id4)) {
+        audio_stop_sound(music_audio_id4);
+    }
+}
+
 
 

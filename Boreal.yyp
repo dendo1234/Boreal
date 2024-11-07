@@ -46,6 +46,7 @@
     {"id":{"name":"obj_fantasma","path":"objects/obj_fantasma/obj_fantasma.yy",},},
     {"id":{"name":"obj_fantasma_trail","path":"objects/obj_fantasma_trail/obj_fantasma_trail.yy",},},
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
+    {"id":{"name":"obj_rei_fantasma","path":"objects/obj_rei_fantasma/obj_rei_fantasma.yy",},},
     {"id":{"name":"obj_ui_hp","path":"objects/obj_ui_hp/obj_ui_hp.yy",},},
     {"id":{"name":"rm_dungeon","path":"rooms/rm_dungeon/rm_dungeon.yy",},},
     {"id":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},

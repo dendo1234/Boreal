@@ -3,12 +3,14 @@
 
 
 spd = 2
-max_hp = 500
+max_hp = global.difficulty == DIFFICULTY.NORMAL ? 50 : 20
 hp = max_hp
 
 fade_wait = 50
 running_audio_id = -1
 
+
+attack_rate_gun = global.difficulty == DIFFICULTY.NORMAL ? 20 : 30
 attack_wait = 10
 attack_animation_timer = 0
 attack_angle = 0

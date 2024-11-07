@@ -1221,8 +1221,6 @@
     {"roomId":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"Aranha","path":"rooms/Aranha/Aranha.yy",},},
-    {"roomId":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},
-    {"roomId":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},
     {"roomId":{"name":"rm_dungeon","path":"rooms/rm_dungeon/rm_dungeon.yy",},},
     {"roomId":{"name":"rm_cutscene_pocao","path":"rooms/rm_cutscene_pocao/rm_cutscene_pocao.yy",},},
     {"roomId":{"name":"rm_cutscene_livro","path":"rooms/rm_cutscene_livro/rm_cutscene_livro.yy",},},

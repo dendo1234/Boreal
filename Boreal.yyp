@@ -49,6 +49,7 @@
     {"id":{"name":"obj_ui_hp","path":"objects/obj_ui_hp/obj_ui_hp.yy",},},
     {"id":{"name":"rm_dungeon","path":"rooms/rm_dungeon/rm_dungeon.yy",},},
     {"id":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},
+    {"id":{"name":"rm_fantasma","path":"rooms/rm_fantasma/rm_fantasma.yy",},},
     {"id":{"name":"rm_laboratorio","path":"rooms/rm_laboratorio/rm_laboratorio.yy",},},
     {"id":{"name":"tm_esqueleto_testes","path":"rooms/tm_esqueleto_testes/tm_esqueleto_testes.yy",},},
     {"id":{"name":"snd_boo","path":"sounds/snd_boo/snd_boo.yy",},},
@@ -79,6 +80,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_fantasma","path":"rooms/rm_fantasma/rm_fantasma.yy",},},
     {"roomId":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},
     {"roomId":{"name":"rm_dungeon","path":"rooms/rm_dungeon/rm_dungeon.yy",},},
     {"roomId":{"name":"rm_laboratorio","path":"rooms/rm_laboratorio/rm_laboratorio.yy",},},

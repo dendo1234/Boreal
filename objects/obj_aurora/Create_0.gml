@@ -3,7 +3,7 @@
 
 
 spd = 2
-max_hp = 500
+max_hp = 50
 hp = max_hp
 
 fade_wait = 50
@@ -42,5 +42,3 @@ previous_hp = hp
 _damage_sprite_timer = 0
 _damage_animation_length = 6
 _original_sprite = sprite_index
-
-

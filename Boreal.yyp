@@ -70,6 +70,7 @@
     {"id":{"name":"obj_esqueleto","path":"objects/obj_esqueleto/obj_esqueleto.yy",},},
     {"id":{"name":"obj_fantasma_trail","path":"objects/obj_fantasma_trail/obj_fantasma_trail.yy",},},
     {"id":{"name":"obj_fantasma","path":"objects/obj_fantasma/obj_fantasma.yy",},},
+    {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},},
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
     {"id":{"name":"obj_livro","path":"objects/obj_livro/obj_livro.yy",},},
     {"id":{"name":"obj_mae_aurora","path":"objects/obj_mae_aurora/obj_mae_aurora.yy",},},

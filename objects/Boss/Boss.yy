@@ -10,8 +10,8 @@
   "name":"Boss",
   "overriddenProperties":[],
   "parent":{
-    "name":"g_obj_inimigos",
-    "path":"folders/Objetos/g_obj_inimigos.yy",
+    "name":"aranha",
+    "path":"folders/Objetos/g_obj_inimigos/aranha.yy",
   },
   "parentObjectId":{
     "name":"obj_inimigo",

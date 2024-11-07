@@ -16,14 +16,18 @@ var _aurora_y = obj_aurora.y
 if (action_wait <= 0) {
 	_aurora_x = obj_aurora.x
 	_aurora_y = obj_aurora.y
-	var _direction = point_direction(x, y, _aurora_x, _aurora_y)
-	var _atributes = {
-		direction : _direction,
-		image_angle : _direction,
-		speed : 3
+	if (distance_to_point(_aurora_x, _aurora_y) < 500) {
+		var _direction = point_direction(x, y, _aurora_x, _aurora_y)
+		var _atributes = {
+			direction : _direction,
+			image_angle : _direction,
+			speed : 3
+		}
+		instance_create_depth(x, y, -1, obj_bone, _atributes)
+		//audio_play_sound(snd_bone_throw, 0, false,1, 0, 0.9 + random(0.2))
+		audio_play_sound_at(snd_bone_throw,_aurora_x-x,_aurora_y-y,0, 100,400,1, false,1, 1, 0, 0.9 + random(0.2))
 	}
-	instance_create_depth(x, y, -1, obj_bone, _atributes)
-	action_wait = 100
+	action_wait = 90 + random(20)
 }
 
 var _aurora_distance = point_distance(center_x, center_y, _aurora_x,_aurora_y)

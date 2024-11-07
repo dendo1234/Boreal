@@ -4,6 +4,22 @@
 // Inherit the parent event
 event_inherited();
 
+if (hp <= 0) {
+	instance_destroy()
+}
+
+if (last_hp != hp) {
+	sprite_index = spr_esqueleto_boss_hurt
+	hurt_timer = 10
+	last_hp = hp
+}
+
+if (hurt_timer <= 0) {
+	sprite_index = spr_esqueleto_boss
+}
+
+hurt_timer--
+
 switch (state) {
 	case SKELETON_BOSS_STATES.SPIN_ATTACK_CHARGE:
 		state_timer--

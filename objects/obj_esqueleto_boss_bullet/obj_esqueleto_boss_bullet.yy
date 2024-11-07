@@ -9,7 +9,10 @@
     "name":"g_obj_esqueleto",
     "path":"folders/Objetos/g_obj_inimigos/g_obj_esqueleto.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_bone",
+    "path":"objects/obj_bone/obj_bone.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

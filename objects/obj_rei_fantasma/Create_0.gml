@@ -10,6 +10,7 @@ attack_speed = 550.0	// Const
 attack_time = 0.25	// Const
 hp = 30
 detect_radius = 120.0	// Const
+prev_hp = hp
 
 for (i = 0; i < trail_count; i++)
 	trail_array[i].sprite_index = spr_fantasma_boss

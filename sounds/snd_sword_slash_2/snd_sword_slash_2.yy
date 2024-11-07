@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_running",
+  "%Name":"snd_sword_slash_2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":45.144,
-  "name":"snd_running",
+  "duration":0.705281,
+  "name":"snd_sword_slash_2",
   "parent":{
     "name":"g_snd_aurora",
     "path":"folders/Sons/g_snd_aurora.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_running.mp3",
+  "soundFile":"snd_sword_slash_2.mp3",
   "type":0,
   "volume":1.0,
 }

@@ -12,8 +12,8 @@
   "duration":2.064,
   "name":"snd_pistol_shot",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"g_snd_aurora",
+    "path":"folders/Sons/g_snd_aurora.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

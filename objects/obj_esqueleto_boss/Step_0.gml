@@ -29,7 +29,7 @@ if (distance_to_point(obj_aurora.x, obj_aurora.y) > 600) return
 
 switch (state) {
 	case SKELETON_BOSS_STATES.SPIN_ATTACK_CHARGE:
-		state_timer--dddded
+		state_timer--
 		var _progresso = (1 - state_timer/(state_total_timer))
 		var _progresso_ease = _progresso * _progresso * (3 - 2*_progresso)
 		image_angle = 360*_progresso_ease

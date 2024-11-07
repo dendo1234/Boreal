@@ -5,6 +5,7 @@
 event_inherited();
 if (!instance_exists(obj_aurora)) return
 
+
 // Movimentação
 if (_is_pursuing) {
     _is_pursuing = false;

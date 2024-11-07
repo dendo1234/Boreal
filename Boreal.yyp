@@ -1101,6 +1101,7 @@
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_esqueleto_boss_bullet","path":"objects/obj_esqueleto_boss_bullet/obj_esqueleto_boss_bullet.yy",},},
     {"id":{"name":"obj_esqueleto_boss","path":"objects/obj_esqueleto_boss/obj_esqueleto_boss.yy",},},
+    {"id":{"name":"obj_esqueleto_easter_egg","path":"objects/obj_esqueleto_easter_egg/obj_esqueleto_easter_egg.yy",},},
     {"id":{"name":"obj_esqueleto","path":"objects/obj_esqueleto/obj_esqueleto.yy",},},
     {"id":{"name":"obj_fantasma_trail","path":"objects/obj_fantasma_trail/obj_fantasma_trail.yy",},},
     {"id":{"name":"obj_fantasma","path":"objects/obj_fantasma/obj_fantasma.yy",},},
@@ -1159,8 +1160,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Aranha","path":"rooms/Aranha/Aranha.yy",},},
     {"roomId":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},
+    {"roomId":{"name":"Aranha","path":"rooms/Aranha/Aranha.yy",},},
     {"roomId":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},
     {"roomId":{"name":"rm_dungeon","path":"rooms/rm_dungeon/rm_dungeon.yy",},},
     {"roomId":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},

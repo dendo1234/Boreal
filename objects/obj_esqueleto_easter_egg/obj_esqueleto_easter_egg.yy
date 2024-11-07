@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_esqueleto_boss_bullet",
-  "eventList":[],
+  "%Name":"obj_esqueleto_easter_egg",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_esqueleto_boss_bullet",
+  "name":"obj_esqueleto_easter_egg",
   "overriddenProperties":[],
   "parent":{
     "name":"g_obj_esqueleto",
     "path":"folders/Objetos/g_obj_inimigos/g_obj_esqueleto.yy",
   },
-  "parentObjectId":{
-    "name":"obj_bone",
-    "path":"objects/obj_bone/obj_bone.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_esqueleto_boss_bullet",
-    "path":"sprites/spr_esqueleto_boss_bullet/spr_esqueleto_boss_bullet.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

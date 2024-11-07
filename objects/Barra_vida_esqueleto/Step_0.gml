@@ -27,3 +27,13 @@ if (obj_esqueleto_boss.hp < 4 and obj_esqueleto_boss.hp >= 0){
 
 x = obj_esqueleto_boss.x - 25
 y = obj_esqueleto_boss.y - 45
+
+if (!audio_is_playing(music_audio_id2)) {
+    // Reproduzir a música e armazenar o ID do áudio
+    music_audio_id2 = audio_play_sound(snd_esqueleto_ts, 0, true);
+    
+    // Ajustar o volume da música
+    var _volume = 0.1; // Defina o volume desejado (0.0 a 1.0)
+    var _time = 0; // Tempo em milissegundos para a transição de volume, use 0 para alteração imediata
+    audio_sound_gain(music_audio_id2, _volume, _time);
+}

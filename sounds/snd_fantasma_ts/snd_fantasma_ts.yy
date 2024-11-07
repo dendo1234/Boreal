@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_fantasma_ts",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":118.8072,
+  "name":"snd_fantasma_ts",
+  "parent":{
+    "name":"g_snd_trilhasonora",
+    "path":"folders/Sons/g_snd_trilhasonora.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_fantasma_ts.mp3",
+  "type":0,
+  "volume":1.0,
+}

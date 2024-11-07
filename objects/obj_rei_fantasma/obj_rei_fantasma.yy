@@ -10,8 +10,8 @@
   "name":"obj_rei_fantasma",
   "overriddenProperties":[],
   "parent":{
-    "name":"g_obj_inimigos",
-    "path":"folders/Objetos/g_obj_inimigos.yy",
+    "name":"fantasma",
+    "path":"folders/Objetos/g_obj_inimigos/fantasma.yy",
   },
   "parentObjectId":{
     "name":"obj_fantasma",

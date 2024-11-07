@@ -39,3 +39,8 @@ sprite_index = aurora_set_basic_sprite(weapon)
 
 
 global._distancia_interacao = 16
+
+previous_hp = hp
+_damage_sprite_timer = 0
+_damage_animation_length = 6
+_original_sprite = sprite_index

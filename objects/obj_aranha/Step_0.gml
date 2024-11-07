@@ -35,31 +35,36 @@ if (_distance < 200 || _is_pursuing) {
     var _next_x = x + lengthdir_x(spd, point_direction(x, y, _target_x, _target_y));
     var _next_y = y + lengthdir_y(spd, point_direction(x, y, _target_x, _target_y));
 
+	var _dx = lengthdir_x(spd, point_direction(x, y, _target_x, _target_y))
+	var _dy = lengthdir_y(spd, point_direction(x, y, _target_x, _target_y))
+
+	move_and_collide(_dx,_dy, _colisao)
+	
     // Verificar colisão
-    if (!place_meeting(_next_x, _next_y, _colisao)) {
-        move_towards_point(_target_x, _target_y, spd);
-    } else {
+    //if (!place_meeting(_next_x, _next_y, _colisao)) {
+        //move_and_collide(_dx,_dy, _colisao)
+    //} else {
         // Inicializar _found_path
-        var _found_path = false;
-        var _attempt_directions = 8; // Tentativas de encontrar um novo caminho
+        //var _found_path = false;
+        //var _attempt_directions = 8; // Tentativas de encontrar um novo caminho
 
-        for (var _i = 0; _i < _attempt_directions; _i++) {
-            var _angle = random(360);
-            var _new_target_x = x + lengthdir_x(spd, _angle);
-            var _new_target_y = y + lengthdir_y(spd, _angle);
+        //for (var _i = 0; _i < _attempt_directions; _i++) {
+            //var _angle = random(360);
+            //var _new_target_x = x + lengthdir_x(spd, _angle);
+            //var _new_target_y = y + lengthdir_y(spd, _angle);
 
-            if (!place_meeting(_new_target_x, _new_target_y, _colisao)) {
-                move_towards_point(_new_target_x, _new_target_y, spd);
-                _found_path = true;
-                break;
-            }
-        }
+            //if (!place_meeting(_new_target_x, _new_target_y, _colisao)) {
+                //move_and_collide(_dx, _dy, _colisao)
+                //_found_path = true;
+                //break;
+            //}
+        //}
 
-        if (!_found_path) {
+        //if (!_found_path) {
             // Parar movimento se nenhum caminho for encontrado
-            spd = 0;
-        }
-    }
+            //spd = 0;
+        //}
+    //}
 }
 
 // Tomando dano

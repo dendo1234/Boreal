@@ -115,6 +115,7 @@
     {"id":{"name":"bossparado","path":"sprites/bossparado/bossparado.yy",},},
     {"id":{"name":"bosstomandodano","path":"sprites/bosstomandodano/bosstomandodano.yy",},},
     {"id":{"name":"spr_aranha_dano","path":"sprites/spr_aranha_dano/spr_aranha_dano.yy",},},
+    {"id":{"name":"spr_aranha_new","path":"sprites/spr_aranha_new/spr_aranha_new.yy",},},
     {"id":{"name":"spr_aranha","path":"sprites/spr_aranha/spr_aranha.yy",},},
     {"id":{"name":"spr_arma","path":"sprites/spr_arma/spr_arma.yy",},},
     {"id":{"name":"spr_aurora_aiming_gun","path":"sprites/spr_aurora_aiming_gun/spr_aurora_aiming_gun.yy",},},

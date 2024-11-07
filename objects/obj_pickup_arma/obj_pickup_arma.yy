@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_rei_fantasma",
+  "%Name":"obj_pickup_arma",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_rei_fantasma",
+  "name":"obj_pickup_arma",
   "overriddenProperties":[],
   "parent":{
-    "name":"fantasma",
-    "path":"folders/Objetos/g_obj_inimigos/fantasma.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":{
-    "name":"obj_fantasma",
-    "path":"objects/obj_fantasma/obj_fantasma.yy",
+    "name":"obj_pickup",
+    "path":"objects/obj_pickup/obj_pickup.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -35,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fantasma_boss",
-    "path":"sprites/spr_fantasma_boss/spr_fantasma_boss.yy",
+    "name":"spr_arma",
+    "path":"sprites/spr_arma/spr_arma.yy",
   },
   "spriteMaskId":null,
   "visible":true,

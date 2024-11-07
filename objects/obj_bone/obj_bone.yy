@@ -10,8 +10,8 @@
   "name":"obj_bone",
   "overriddenProperties":[],
   "parent":{
-    "name":"g_obj_inimigos",
-    "path":"folders/Objetos/g_obj_inimigos.yy",
+    "name":"g_obj_esqueleto",
+    "path":"folders/Objetos/g_obj_inimigos/g_obj_esqueleto.yy",
   },
   "parentObjectId":null,
   "persistent":false,

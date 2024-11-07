@@ -28,7 +28,7 @@ if (room == Aranha) {
         var _time = 0; // Tempo em milissegundos para a transição de volume, use 0 para alteração imediata
         audio_sound_gain(music_audio_id2, _volume, _time);
     }
-} else if ( room == rm_esqueleto or room == rm_fantasma or room == rm_gameover) {
+} else if ( room != Aranha) {
 	audio_stop_sound(music_audio_id2);
     
 }

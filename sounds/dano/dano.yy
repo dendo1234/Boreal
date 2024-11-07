@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_skeleton_death",
+  "%Name":"dano",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.872,
-  "name":"snd_skeleton_death",
+  "duration":0.208969,
+  "name":"dano",
   "parent":{
-    "name":"g_snd_esqueleto",
-    "path":"folders/Sons/g_snd_esqueleto.yy",
+    "name":"g_snd_aurora",
+    "path":"folders/Sons/g_snd_aurora.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_skeleton_death.mp3",
+  "soundFile":"dano.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":0.21,
 }

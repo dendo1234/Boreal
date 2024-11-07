@@ -21,6 +21,7 @@
     {"name":"inst_3455B290","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
     {"name":"inst_5BAD0BDD","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
     {"name":"inst_23E1C4F","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
+    {"name":"inst_7348A50E","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -42,6 +43,7 @@
         {"$GMRInstance":"v1","%Name":"inst_69C73066","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69C73066","objectId":{"name":"obj_esqueleto","path":"objects/obj_esqueleto/obj_esqueleto.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":746.0,"y":787.0,},
         {"$GMRInstance":"v1","%Name":"inst_3EFAFFE4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EFAFFE4","objectId":{"name":"obj_esqueleto_easter_egg","path":"objects/obj_esqueleto_easter_egg/obj_esqueleto_easter_egg.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":1184.0,},
         {"$GMRInstance":"v1","%Name":"inst_23E1C4F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23E1C4F","objectId":{"name":"obj_mae_aurora","path":"objects/obj_mae_aurora/obj_mae_aurora.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":2272.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7348A50E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7348A50E","objectId":{"name":"trilha_sonora","path":"objects/trilha_sonora/trilha_sonora.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"tm_collision","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tm_collision","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":157,"SerialiseWidth":75,"TileCompressedData":[
           -152,-2147483648,-14,1,-14,-2147483648,-18,1,-29,-2147483648,1,1,-12,-2147483648,1,1,-14,-2147483648,

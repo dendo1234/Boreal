@@ -25,13 +25,3 @@ if (Boss.hp < 4 and Boss.hp >= 0){
 
 x = Boss.x - 20
 y = Boss.y - 40
-
-if (!audio_is_playing(music_audio_id)) {
-    // Reproduzir a música e armazenar o ID do áudio
-    music_audio_id = audio_play_sound(snd_aranha_ts, 0, true);
-    
-    // Ajustar o volume da música
-    var _volume = 0.1; // Defina o volume desejado (0.0 a 1.0)
-    var _time = 0; // Tempo em milissegundos para a transição de volume, use 0 para alteração imediata
-    audio_sound_gain(music_audio_id, _volume, _time);
-}

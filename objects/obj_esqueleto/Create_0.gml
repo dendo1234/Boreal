@@ -34,5 +34,9 @@ deg_turn_speed = 360*speed/_circumference
 x = x + cos(degtorad(angle))*radius
 y = y - sin(degtorad(angle))*radius
 
+previus_hp2 = hp
+_original_sprite = sprite_index
+_damage_sprite_timer = 0
+_damage_animation_length = 5
 
 

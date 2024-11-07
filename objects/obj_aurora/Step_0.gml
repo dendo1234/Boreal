@@ -147,7 +147,7 @@ attack_wait -= 1
 if (previous_hp > hp) {
     // Guardar o sprite original
     _original_sprite = sprite_index;
-    
+    audio_play_sound(dano,0,false)
     // Trocar para o sprite de dano
     sprite_index = spr_aurora_damage;
     _damage_sprite_timer = _damage_animation_length; // Duração em frames da animação de dano

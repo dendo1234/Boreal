@@ -4,6 +4,11 @@
 // Inherit the parent event
 event_inherited();
 
+if (!instance_exists(obj_aurora)) {
+	return
+}
+
+
 if (hp <= 0) {
 	instance_destroy()
 }
@@ -20,6 +25,8 @@ if (hurt_timer <= 0) {
 
 hurt_timer--
 
+if (distance_to_point(obj_aurora.x, obj_aurora.y) > 800) return
+
 switch (state) {
 	case SKELETON_BOSS_STATES.SPIN_ATTACK_CHARGE:
 		state_timer--
@@ -34,9 +41,9 @@ switch (state) {
 		}
 	break
 	case SKELETON_BOSS_STATES.SPIN_ATTACK_SHOOT:
-		if (state_timer % 20 == 0) {
+		if (state_timer % (25-(2*hp)) == 0) {
 			
-			var _bullet_number = 10
+			var _bullet_number = 10 + hp
 			for (var _i = 0; _i < _bullet_number; _i++) {
 				var _atributes = {
 					direction : _i*(360/_bullet_number),
@@ -45,6 +52,7 @@ switch (state) {
 				instance_create_depth(x,y,0,obj_esqueleto_boss_bullet,_atributes)
 			}
 		}
+		audio_play_sound(snd_fire, -1, false, 1, 0, 0.9 + random(0.2))
 		state_timer--
 		if (state_timer <= 0) {
 			state_total_timer = 50 + random(100)
@@ -76,6 +84,7 @@ switch (state) {
 		
 		state_timer--
 		if (state_timer <= 0) {
+			audio_play_sound(snd_bone_throw, 0, false, 1, 0, 0.5)
 			state = SKELETON_BOSS_STATES.SPIN_ATTACK_CHARGE
 			state_total_timer = 50
 			state_timer = state_total_timer

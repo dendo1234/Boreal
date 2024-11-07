@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Barra_vida",
+  "%Name":"Barra_vida_esqueleto",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Barra_vida",
+  "name":"Barra_vida_esqueleto",
   "overriddenProperties":[],
   "parent":{
-    "name":"aranha",
-    "path":"folders/Objetos/g_obj_inimigos/aranha.yy",
+    "name":"g_obj_esqueleto",
+    "path":"folders/Objetos/g_obj_inimigos/g_obj_esqueleto.yy",
   },
   "parentObjectId":null,
   "persistent":false,

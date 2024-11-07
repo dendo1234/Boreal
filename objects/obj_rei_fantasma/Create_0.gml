@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-melee_dmg = 20
+melee_dmg = 17
 move_accel = 2.0	// Const
 attack_speed = 550.0	// Const
 attack_time = 0.25	// Const

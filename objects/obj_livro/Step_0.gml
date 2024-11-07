@@ -10,6 +10,8 @@ if (instance_exists(obj_livro)) {
         // Cria a instância do objeto que exibe a imagem
 		global.aurora_x = obj_aurora.x;
 		global.aurora_y = obj_aurora.y;
+		image_speed = 1;
+		obj_cutscene_livro.image_index = 0;
 		obj_cutscene_livro.visible = true;
 		global.leu_o_livro = true;
     }

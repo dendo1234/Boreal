@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-tempo = 0;
+speed_cutscene_final = 1;
+tempo_cut_final = 0;

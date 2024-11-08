@@ -20,3 +20,11 @@ if (keyboard_check_pressed(75) && speed_cutscene < 3){
 if (keyboard_check_pressed(74) && speed_cutscene > 1){
     speed_cutscene -= 1; // Aumenta a velocidade (ou ajuste conforme necessário)
 }
+
+if (speed_cutscene == 1) {
+    obj_cutscene_accel.image_index = 0; // Mostra a primeira subimagem do sprite
+} else if (speed_cutscene == 2) {
+    obj_cutscene_accel.image_index = 1; // Mostra a segunda subimagem do sprite
+} else if (speed_cutscene == 3) {
+    obj_cutscene_accel.image_index = 2; // Mostra a terceira subimagem do sprite
+}

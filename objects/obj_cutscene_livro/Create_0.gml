@@ -2,4 +2,5 @@
 // You can write your code in this editor
 visible = false;
 
-tempo = 0;
+speed_cutscene_livro = 1;
+tempo_cut_livro = 0;

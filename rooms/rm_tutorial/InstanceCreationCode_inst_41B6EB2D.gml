@@ -1,1 +1,1 @@
-room_e = rm_lab
+room_e = rm_menu_principal

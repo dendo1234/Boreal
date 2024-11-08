@@ -3,6 +3,6 @@
 
 tempo++;
 
-if (tempo >= 150){
+if (tempo >= 210){
 	room_goto(rm_menu_principal)
 }

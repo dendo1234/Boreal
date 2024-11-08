@@ -119,7 +119,7 @@ if (mouse_check_button_pressed(mb_left) and attack_wait <= 0) {
 				image_xscale = 1
 			}
 			
-		    attack_wait = 20
+		    attack_wait = attack_rate_gun
 		break
 		case WEAPON.SWORD:
 			_direction = arctan2(y - mouse_y, mouse_x - x)

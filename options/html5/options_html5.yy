@@ -16,7 +16,7 @@
   "option_html5_icon":"${base_options_dir}/html5/fav.ico",
   "option_html5_index":"use_default",
   "option_html5_interpolate_pixels":false,
-  "option_html5_jsprepend":"document.querySelector(\"meta[name=viewport]\").setAttribute('content', 'width=device-width, initial-scale='+(1/window.devicePixelRatio)+', maximum-scale=1.0, user-scalable=0');",
+  "option_html5_jsprepend":"",
   "option_html5_loadingbar":"use_default",
   "option_html5_localrunalert":true,
   "option_html5_outputdebugtoconsole":true,

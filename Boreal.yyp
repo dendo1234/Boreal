@@ -83,6 +83,7 @@
     {"id":{"name":"obj_pickup","path":"objects/obj_pickup/obj_pickup.yy",},},
     {"id":{"name":"obj_pocao","path":"objects/obj_pocao/obj_pocao.yy",},},
     {"id":{"name":"obj_rei_fantasma","path":"objects/obj_rei_fantasma/obj_rei_fantasma.yy",},},
+    {"id":{"name":"obj_resolucao","path":"objects/obj_resolucao/obj_resolucao.yy",},},
     {"id":{"name":"obj_seta","path":"objects/obj_seta/obj_seta.yy",},},
     {"id":{"name":"obj_ui_hp","path":"objects/obj_ui_hp/obj_ui_hp.yy",},},
     {"id":{"name":"obj_veneno","path":"objects/obj_veneno/obj_veneno.yy",},},
@@ -96,6 +97,7 @@
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},
     {"id":{"name":"rm_menu_principal","path":"rooms/rm_menu_principal/rm_menu_principal.yy",},},
+    {"id":{"name":"rm_resolution","path":"rooms/rm_resolution/rm_resolution.yy",},},
     {"id":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"id":{"name":"dano_inimigo","path":"sounds/dano_inimigo/dano_inimigo.yy",},},
@@ -185,6 +187,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_resolution","path":"rooms/rm_resolution/rm_resolution.yy",},},
     {"roomId":{"name":"rm_menu_principal","path":"rooms/rm_menu_principal/rm_menu_principal.yy",},},
     {"roomId":{"name":"Aranha","path":"rooms/Aranha/Aranha.yy",},},
     {"roomId":{"name":"rm_esqueleto","path":"rooms/rm_esqueleto/rm_esqueleto.yy",},},

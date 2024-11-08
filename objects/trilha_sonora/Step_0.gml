@@ -54,7 +54,7 @@ if (room == rm_esqueleto) {
     }
 }
 
-if (tt = 0) {
+if (room == rm_menu_principal) {
     // Verificar se a música não está tocando
     if (!audio_is_playing(music_audio_id4)) {
         // Reproduzir a música e armazenar o ID do áudio

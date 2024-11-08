@@ -17,3 +17,11 @@ if (keyboard_check_pressed(75) && speed_cutscene_final < 3){
 if (keyboard_check_pressed(74) && speed_cutscene_final > 1){
     speed_cutscene_final -= 1; // Aumenta a velocidade (ou ajuste conforme necessário)
 }
+
+if (speed_cutscene_final == 1) {
+    obj_cutscene_accel_final.image_index = 0; // Mostra a primeira subimagem do sprite
+} else if (speed_cutscene_final == 2) {
+    obj_cutscene_accel_final.image_index = 1; // Mostra a segunda subimagem do sprite
+} else if (speed_cutscene_final == 3) {
+    obj_cutscene_accel_final.image_index = 2; // Mostra a terceira subimagem do sprite
+}

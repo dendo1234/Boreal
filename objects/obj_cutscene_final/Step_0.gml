@@ -10,7 +10,7 @@ if (tempo_cut_final >= 5000 || keyboard_check_pressed(72)){
 }
 
 if (keyboard_check_pressed(75) && speed_cutscene_final < 3){
-    speed_cutscene_inicial += 1; // Aumenta a velocidade (ou ajuste conforme necessário)
+    speed_cutscene_final += 1; // Aumenta a velocidade (ou ajuste conforme necessário)
 }
 
 //tecla J

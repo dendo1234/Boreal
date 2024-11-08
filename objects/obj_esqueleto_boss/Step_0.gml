@@ -14,6 +14,7 @@ if (hp <= 0) {
 }
 
 if (last_hp != hp) {
+	audio_play_sound(dano_inimigo,0,false)
 	sprite_index = spr_esqueleto_boss_hurt
 	hurt_timer = 10
 	last_hp = hp

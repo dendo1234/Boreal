@@ -1,5 +1,6 @@
 // Verificar se estamos na sala especificada
 if (room == rm_fantasma) {
+	tt = 1
     // Verificar se a música não está tocando
     if (!audio_is_playing(music_audio_id)) {
         // Reproduzir a música e armazenar o ID do áudio
@@ -18,6 +19,7 @@ if (room == rm_fantasma) {
 }
 
 if (room == Aranha) {
+	tt = 1
     // Verificar se a música não está tocando
     if (!audio_is_playing(music_audio_id2)) {
         // Reproduzir a música e armazenar o ID do áudio
@@ -34,6 +36,7 @@ if (room == Aranha) {
 }
 
 if (room == rm_esqueleto) {
+	tt = 1
     // Verificar se a música não está tocando
     if (!audio_is_playing(music_audio_id3)) {
         // Reproduzir a música e armazenar o ID do áudio
@@ -51,7 +54,7 @@ if (room == rm_esqueleto) {
     }
 }
 
-if (room == rm_menu_principal) {
+if (tt = 0) {
     // Verificar se a música não está tocando
     if (!audio_is_playing(music_audio_id4)) {
         // Reproduzir a música e armazenar o ID do áudio

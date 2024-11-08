@@ -6,6 +6,7 @@ image_speed = speed_cutscene_final * 0.5;
 
 // tecla H
 if (tempo_cut_final >= 5000 || keyboard_check_pressed(72)){
+	audio_stop_sound(musica)
 	room_goto(rm_menu_principal)
 }
 

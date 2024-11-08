@@ -3,14 +3,23 @@
 
 
 spd = 2
-max_hp = global.difficulty == DIFFICULTY.NORMAL ? 50 : 20
+if (variable_global_exists("difficulty")) {
+	max_hp = global.difficulty == DIFFICULTY.NORMAL ? 50 : 20
+} else {
+	max_hp = 50
+}
+	
 hp = max_hp
 
 fade_wait = 50
 running_audio_id = -1
 
+if (variable_global_exists("difficulty")) {	
+	attack_rate_gun = global.difficulty == DIFFICULTY.NORMAL ? 20 : 30
+} else {
+	attack_rate_gun = 20
+}
 
-attack_rate_gun = global.difficulty == DIFFICULTY.NORMAL ? 20 : 30
 attack_wait = 10
 attack_animation_timer = 0
 attack_angle = 0

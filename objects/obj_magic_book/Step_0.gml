@@ -18,6 +18,6 @@ if ((keyboard_check(vk_delete) or keyboard_check(ord("E"))) and _distance < glob
 
 	}
 	instance_destroy(seta)
-	room_goto(rm_esqueleto)
+	room_goto(rm_anuncio_esqueleto)
 	instance_destroy()
 }

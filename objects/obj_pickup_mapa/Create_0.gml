@@ -5,5 +5,5 @@
 event_inherited();
 
 function pickup() {
-	room_goto(Aranha)
+	room_goto(rm_anuncio_aranha)
 }

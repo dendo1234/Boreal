@@ -5,9 +5,9 @@ if (visible == true && global.leu_o_livro == true){
 	tempo++;
 }
 
-if (tempo>= 60){
+if (tempo>= 180){
 	visible = false;
-	room_goto(global.proxima_sala);
+	room_goto(rm_fantasma);
 	tempo = 0;
 }
 

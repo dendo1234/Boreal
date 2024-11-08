@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cutscene_pocao",
+  "%Name":"obj_anuncio_esqueleto",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cutscene_pocao",
+  "name":"obj_anuncio_esqueleto",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cutscene_pocao",
-    "path":"sprites/spr_cutscene_pocao/spr_cutscene_pocao.yy",
+    "name":"spr_anuncio_esqueleto",
+    "path":"sprites/spr_anuncio_esqueleto/spr_anuncio_esqueleto.yy",
   },
   "spriteMaskId":null,
   "visible":true,

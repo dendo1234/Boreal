@@ -3,4 +3,4 @@
 
 //instance_create_depth(x,y,0,obj_magic_book)
 
-instance_create_depth(x,y,+100,obj_coroa)
+instance_create_depth(x,y,depth+100,obj_coroa)
